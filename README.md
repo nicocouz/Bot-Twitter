@@ -1,6 +1,6 @@
 # Test API TWITTER
 
-###### This is a first test with the Twitter API.
+###### This is a first test with the Twitter API.
 
 Follow these steps:
 
