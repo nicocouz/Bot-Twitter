@@ -13,7 +13,7 @@ client = Twitter::Streaming::Client.new do |config|
   config.access_token_secret = ENV["TWITTER_API_RANDOM_SECRET"]
 end
 
-# Stream mentions of Federer
+# Stream mentions of coffee
 topics = ["coffee"]
 client.filter(track: topics.join(",")) do |object|
   puts object.text if object.is_a?(Twitter::Tweet)
