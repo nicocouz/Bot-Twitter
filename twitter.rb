@@ -10,7 +10,7 @@ client = Twitter::Streaming::Client.new do |config|
   config.consumer_key        = ENV["TWITTER_API_KEY"]
   config.consumer_secret     = ENV["TWITTER_API_SECRET"]
   config.access_token        = ENV["TWITTER_API_RANDOM"]
-  config.access_token_secret = ENV["TWITTER_API_RANDOMBIS"]
+  config.access_token_secret = ENV["TWITTER_API_RANDOM_SECRET"]
 end
 
 # Stream mentions of Federer
